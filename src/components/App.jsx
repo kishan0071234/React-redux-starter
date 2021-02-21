@@ -5,7 +5,6 @@ import * as api from '../api/getDataApi';
 
 const gamePage =()=> {
 
-
   useEffect(()=>{
 api.getData({});
   },[]);
